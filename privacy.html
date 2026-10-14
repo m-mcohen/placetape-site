@@ -48,7 +48,7 @@
   <h2>Google Tasks (optional)</h2>
   <p>Signing in with Google is optional. If you sign in, Placetape asks for two things:</p>
   <ul>
-    <li><strong>Your Google Tasks.</strong> Placetape reads your task lists and tasks to find location reminders, such as ones you add by voice with Gemini. When you make a reminder in the app, it creates a task with the reminder's title. It writes one line into a task's details with the place's name, its address, and a map link that contains the place's coordinates, updates that line when the place changes, and marks the task complete when you mark the reminder done. It never changes an existing task's title and never deletes a task.</li>
+    <li><strong>Your Google Tasks.</strong> Placetape reads your task lists and tasks to find location reminders, such as ones you add by voice with Gemini. When you make a reminder in the app, it creates a task with the reminder's title. It writes one line into a task's details with the place's name, its address, and a map link that contains the place's coordinates, updates that line when the place changes, and marks the task complete when you mark the reminder done. It never changes an existing task's title. When you delete a reminder in the app, Placetape deletes that reminder's task from Google Tasks.</li>
     <li><strong>Your email address.</strong> It is kept on your phone so Settings can show which account is signed in.</li>
   </ul>
   <p>Placetape uses short-lived access tokens supplied by Google Play services. It never sees or stores your Google password, and it stores no refresh token.</p>
@@ -59,7 +59,7 @@
   <ul>
     <li>Sign out in Settings to remove Placetape's access to your Google account. Your reminders stay on your phone. You can also remove the access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
     <li>Uninstalling the app deletes everything it stored on your phone.</li>
-    <li>Tasks Placetape created, and the lines it wrote into your tasks, stay in Google Tasks until you edit or delete them there.</li>
+    <li>Tasks Placetape created, and the lines it wrote into your tasks, stay in Google Tasks until you edit or delete them there, or delete the reminder in the app.</li>
   </ul>
 
   <h2>Children</h2>

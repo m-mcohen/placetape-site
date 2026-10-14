@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Placetape Privacy Policy</title>
+<meta name="description" content="How Placetape handles your data.">
+<style>
+  :root {
+    --bg: #fbf8f4;
+    --text: #1d1a17;
+    --text-2: #5c554e;
+    --accent: #b8460b;
+    --rule: #e3dbd2;
+    --measure: 40rem;
+    --gutter: 1.25rem;
+    --space: 1rem;
+    --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17140f; --text: #f1ebe4; --text-2: #b6ada3; --accent: #f08a4b; --rule: #3a332c; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 1.0625rem/1.6 var(--font); }
+  main { max-width: var(--measure); margin: 0 auto; padding: calc(var(--space) * 3) var(--gutter); }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 calc(var(--space) / 2); }
+  h2 { font-size: 1.15rem; margin: calc(var(--space) * 2) 0 calc(var(--space) / 2); }
+  .date { color: var(--text-2); margin: 0 0 calc(var(--space) * 2); }
+  a { color: var(--accent); }
+  footer { border-top: 1px solid var(--rule); margin-top: calc(var(--space) * 3); padding-top: var(--space); color: var(--text-2); font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Placetape Privacy Policy</h1>
+  <p class="date">Effective October 13, 2026</p>
+
+  <p>Placetape is an Android app for location reminders. This policy explains what it uses, where that information goes, and how to remove it.</p>
+
+  <h2>What the app keeps, and where</h2>
+  <p>Placetape stores your saved places, your reminders, and your app settings on your phone. It has no server of its own. It uses no analytics, no advertising, and no crash reporting. Your location is used on the phone to tell when you arrive at or leave a place. Nothing leaves your phone unless you sign in with Google; then only what the Google Tasks section below describes is sent, and only to Google.</p>
+
+  <h2>Address lookup</h2>
+  <p>When you type an address to save a place, Android's built-in address lookup turns it into a map position. Android may use Google's service to do this, under Google's own privacy policy.</p>
+
+  <h2>Google Tasks (optional)</h2>
+  <p>Signing in with Google is optional. If you sign in, Placetape asks for two things:</p>
+  <ul>
+    <li><strong>Your Google Tasks.</strong> Placetape reads your task lists and tasks to find location reminders, such as ones you add by voice with Gemini. When you make a reminder in the app, it creates a task with the reminder's title. It writes one line into a task's details with the place's name, its address, and a map link that contains the place's coordinates, updates that line when the place changes, and marks the task complete when you mark the reminder done. It never changes an existing task's title and never deletes a task.</li>
+    <li><strong>Your email address.</strong> It is kept on your phone so Settings can show which account is signed in.</li>
+  </ul>
+  <p>Placetape uses short-lived access tokens supplied by Google Play services. It never sees or stores your Google password, and it stores no refresh token.</p>
+  <p>This information goes only between your phone and Google. Placetape does not send it to anyone else, sell it, or use it for advertising.</p>
+  <p>Placetape's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Removing your data</h2>
+  <ul>
+    <li>Sign out in Settings to remove Placetape's access to your Google account. Your reminders stay on your phone. You can also remove the access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>Uninstalling the app deletes everything it stored on your phone.</li>
+    <li>Tasks Placetape created, and the lines it wrote into your tasks, stay in Google Tasks until you edit or delete them there.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Placetape is not intended for children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+  <footer>Questions: <a href="mailto:placetapedev@gmail.com">placetapedev@gmail.com</a> · <a href="index.html">Placetape home</a> · <a href="terms.html">Terms of use</a></footer>
+</main>
+</body>
+</html>
